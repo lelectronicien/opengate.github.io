@@ -71,4 +71,45 @@ nav a:hover {
     border-bottom: 0.2rem solid #7f649b;
     border-top: 0.2rem solid transparent;
   }
+
+  nav{
+    padding: 0;
+  }
+}
+
+
+.wrapper{
+    padding: 0 2rem;
+}
+
+.search-form{
+    display: flex;
+}
+
+i{
+    background-color: #dcd9df;
+    padding: 1rem 1.5rem;
+    border-radius: 1rem 0 0 1rem;
+
+}
+
+.search-form input{
+    border:1px solid #dcd9df;
+}
+
+.search-form button{
+    padding: 1rem 3rem;
+    color: white;
+    background-color: #7f649b;
+    border: none;
+    border-radius: 0 1rem 1rem 0;
+    font-weight: bold;
+    cursor: pointer;
+
+    
+
+}
+
+.search-form input::placeholder{
+    font-size: large;
 }
