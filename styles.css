@@ -98,7 +98,7 @@ i{
 }
 
 .search-form button{
-    padding: 1rem 3rem;
+    padding: 1rem 1.5rem;
     color: white;
     background-color: #7f649b;
     border: none;
@@ -106,7 +106,7 @@ i{
     font-weight: bold;
     cursor: pointer;
 
-    
+     
 
 }
 
