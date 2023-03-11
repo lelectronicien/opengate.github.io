@@ -86,11 +86,15 @@ nav a:hover {
     display: flex;
 }
 
-i{
+.search-form > i{
     background-color: #dcd9df;
     padding: 1rem 1.5rem;
     border-radius: 1rem 0 0 1rem;
 
+}
+
+.search-logo {
+    display: none;
 }
 
 .search-form input{
@@ -112,4 +116,47 @@ i{
 
 .search-form input::placeholder{
     font-size: large;
+}
+
+@media screen and (max-width: 800px) {
+    .search{
+        display: none;
+    }
+    .fa-magnifying-glass{
+        display: inline;
+    }
+}
+
+.filter-list{
+  margin-top: 3rem;
+  display: flex;
+  align-items: center;
+  gap: 0.08rem 2rem;
+  flex-wrap: wrap;
+}
+
+.filter{
+  border: 2px solid gray;
+  border-radius: 25px 25px 25px 25px;
+  transition: all .5s ease;
+}
+
+.filter i{
+  background-color: #7f649b;
+  color:white;
+  padding: 1rem 1rem;
+  border-radius: 50%;
+  margin:-1px ;
+}
+
+.filter span{
+  font-weight: bold;
+  padding: 1rem;
+
+}
+
+.filter:hover{
+background-color: #f4f2f7;
+cursor: pointer;
+transform: scale(1.04);
 }
